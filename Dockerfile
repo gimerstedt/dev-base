@@ -4,7 +4,7 @@ maintainer rickard@gimerstedt.se
 env SHELL=/usr/bin/zsh
 
 run apt-get update
-run apt-get install -y zsh vim git python
+run apt-get install -y zsh vim git python curl
 run apt-get install locales
 
 run echo "en_US.UTF-8 UTF-8" | tee -a /etc/locale.gen
